@@ -15,6 +15,7 @@ namespace SibusisoStudyGroup.Controllers
             List<Models.Student> students = new List<Models.Student>();
 
             students.Add(new Models.Student { studentNumber = "u22699032", Name = "Sibusiso", Surname = "Makhoba", emailAddress = "u22699032@tuks.co.za"});
+            students.Add(new Models.Student { studentNumber = "", Name = "", Surname = "", emailAddress = "" });
 
             return View(students);
         }
