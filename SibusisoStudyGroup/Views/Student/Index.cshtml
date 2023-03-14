@@ -11,7 +11,7 @@
         <th>@Html.DisplayNameFor(model => model.Name)</th>
         <th>@Html.DisplayNameFor(model => model.Surname)</th>
         <th>@Html.DisplayNameFor(model => model.emailAddress)</th>
-        <th>@Html.DisplayNameFor(model => model.Link)</th>
+        <th>@Html.DisplayNameFor(model => model.myLink)</th>
     </tr>
     @foreach(var item in Model)
             {
@@ -20,7 +20,7 @@
                     <td>@Html.DisplayFor(modelItem => item.Name)</td>
                     <td>@Html.DisplayFor(modelItem => item.Surname)</td>
                     <td>@Html.DisplayFor(modelItem => item.emailAddress)</td>
-                    <td><button>@Html.ActionLink("Link", Html.DisplayFor(modelItem => item.myLink))</button></td>
+                    <td><button>@Html.ActionLink("Link", Convert.ToString(item.myLink))</button></td>
                 </tr>
             }
 </table>
