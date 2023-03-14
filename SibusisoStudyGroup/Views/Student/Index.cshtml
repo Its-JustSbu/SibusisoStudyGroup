@@ -11,6 +11,7 @@
         <th>@Html.DisplayNameFor(model => model.Name)</th>
         <th>@Html.DisplayNameFor(model => model.Surname)</th>
         <th>@Html.DisplayNameFor(model => model.emailAddress)</th>
+        <th>@Html.DisplayNameFor(model => model.Link)</th>
     </tr>
     @foreach(var item in Model)
             {
@@ -19,6 +20,7 @@
                     <td>@Html.DisplayFor(modelItem => item.Name)</td>
                     <td>@Html.DisplayFor(modelItem => item.Surname)</td>
                     <td>@Html.DisplayFor(modelItem => item.emailAddress)</td>
+                    <td><button>@Html.ActionLink("Link", "Index", "Student")</button></td>
                 </tr>
             }
 </table>

@@ -28,3 +28,16 @@ textarea {
     background-color: #777;
     border-color: #fff
 }
+
+button {
+    background-color: yellow;
+    border: 5px solid yellow;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: rgb(128, 128, 128, 0.4) 30px;
+}
+
+button:hover {
+    opacity: 0.4;
+}
