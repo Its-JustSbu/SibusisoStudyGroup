@@ -20,7 +20,7 @@
                     <td>@Html.DisplayFor(modelItem => item.Name)</td>
                     <td>@Html.DisplayFor(modelItem => item.Surname)</td>
                     <td>@Html.DisplayFor(modelItem => item.emailAddress)</td>
-                    <td><button>@Html.ActionLink("Link", "Index", "Student")</button></td>
+                    <td><button>@Html.ActionLink("Link", Html.DisplayFor(modelItem => item.myLink))</button></td>
                 </tr>
             }
 </table>

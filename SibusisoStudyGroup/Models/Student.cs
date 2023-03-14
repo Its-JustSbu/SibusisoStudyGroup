@@ -17,6 +17,6 @@ namespace SibusisoStudyGroup.Models
         [Display(Name = "Email Address")]
         public string emailAddress { get; set; }
         [Display(Name = "Link to Personal Page")]
-        public string Link { get; set; }
+        public string myLink { get; set; }
     }
 }
