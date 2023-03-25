@@ -76,6 +76,7 @@ button:hover {
 
 .dropdown-content a:hover {
     background-color: #AED3E3;
+    cursor: pointer;
 }
 
 .site-dropdown:hover .dropdown-content {
@@ -84,4 +85,8 @@ button:hover {
 
 .site-dropdown:hover .drop {
     background-color: #004B57;
+}
+
+.drop:hover {
+    cursor: pointer;
 }
