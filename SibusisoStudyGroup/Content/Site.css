@@ -41,7 +41,7 @@ button {
 button:hover {
     opacity: 0.4;
 }
-
+/*Drop down css was sourced and referenced through www.w3schools*/
 .drop {
     color:white;
     padding: 16px;
@@ -60,11 +60,6 @@ button:hover {
     min-width: 160px;
     box-shadow: rgba(0,0,0,0.2) 0px 8px 16px 0px;
     z-index: 3;
-}
-
-.dropdown-content li {
-    list-style: none;
-    list-style-position:outside;
 }
 
 .dropdown-content a {
